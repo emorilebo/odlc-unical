@@ -20,7 +20,6 @@ const Home : NextPage = ()=>{
     <div>
       <Head>
         <title>Open and Distance Learning, University of Calabar.</title>
-        
       </Head>
     </div>
   )
