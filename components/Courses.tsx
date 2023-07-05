@@ -6,11 +6,11 @@ import React from 'react'
 const courses = [
     {
       id: 1,
-      name: 'Nasarawa Close',
-      href: '/nasarawa',
-      price: 'Banana Island Ikoyi - Lagos ',
-      description: 'Five (5) bedroom fully detached duplex with a room BQ each.',
-      options: '3 Units',
+      name: 'B.Sc. Business Management (Accounting option)',
+      href: '/accounting',
+      price: ' ',
+      description: 'B.Sc. Business Management (Accounting option).',
+      options: '',
       imageSrc: '/bookshop.jpg',
       imageAlt: 'nasarawa.',
     },
