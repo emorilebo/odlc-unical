@@ -84,36 +84,16 @@ export default function Banner() {
             autoPlay={true}
           >
             <div>
-              {/* <Image src="/gate.jpg" layout="fill"alt="Unical gate" /> */}
-              <img src="avenue5.jpg" />
-              <p className="legend">Avenue</p>
+              <Image src="/library.jpg"  width={1600} height={936}  alt="Unical library" />
             </div>
             <div>
-              <Image src="/library.jpg" layout="fill" alt="Unical gate"/>
-
-              <p className="legend">Properties in Ikoyi</p>
+              <Image src="/gate.jpg" width={1600} height={936}  alt="Unical library" />
+              <p className="legend">University of Calabar Gate</p>
             </div>
             <div>
-              <Image src="/library2.jpg" layout="fill" alt="Unical gate" />
-              <p className="legend">Properties in Ikoyi</p>
+              <Image src="/chapel.jpg" width={1600} height={936}  alt="Unical library" />
+              <p className="legend">University of Calabar Gate</p>
             </div>
-            <div>
-              <Image src="/senate.jpg" layout="fill" alt="Unical gate" />
-              <p className="legend">Properties in Ikoyi</p>
-            </div>
-            <div>
-              <Image src="/stpaul.jpg" layout="fill" alt="Unical gate" />
-              <p className="legend">Properties in Lekki</p>
-            </div>
-            <div>
-              <Image src="/chapel.jpg" layout="fill"  alt="Unical gate"/>
-              <p className="legend">Properties in Lekki</p>
-            </div>
-            <div>
-              <Image src="/library3.jpg" layout="fill" alt="Unical gate" />
-              <p className="legend">Properties in Lekki</p>
-            </div>
-            
           </Carousel>
         </div>
       </div>
