@@ -20,6 +20,7 @@ import {
   } from '@heroicons/react/outline'
   import { ChevronDownIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
+import Image from 'next/image'
 
   const solutions = [
     {
@@ -81,7 +82,7 @@ export default function Header() {
               <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                 <div className="flex items-center justify-start lg:w-0 lg:flex-1">
                   <Link href="/">
-                    <img
+                    <Image
                       className="h-10 w-auto sm:h-10"
                       src="/logosm.png"
                       alt=""
@@ -164,7 +165,7 @@ export default function Header() {
                   <div className="px-5 pt-5 pb-6">
                     <div className="flex items-center justify-between">
                       <div>
-                        <img
+                        <Image
                           className="h-10 w-auto"
                           src="/logosm.png"
                           alt="Uinical odlc"
