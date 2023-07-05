@@ -51,18 +51,16 @@ export default function Banner() {
                 />
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Enabling families and households to attain a healthy and
-                luxurious living in a sustainable way leveraging on green &
-                renewable technologies.{' '}
+              Offering a flexible and accessible learning experience that breaks down barriers to education. Through our online programmes, we empower learners to pursue their academic and professional goals, providing high-quality education anytime and anywhere.{' '}
               </p>
 
               <div className="mt-5 hidden sm:mt-8 sm:justify-center lg:inline-flex lg:justify-start">
                 <div className=" rounded-md shadow">
                   <a
                     href="/projects"
-                    className=" flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                   >
-                    Check Properties
+                    Check Courses
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">

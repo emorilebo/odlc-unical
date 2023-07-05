@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function About() {
@@ -6,7 +7,7 @@ function About() {
       <div className="relative bg-white">
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-            <img
+            <Image
               className="h-56 w-full object-cover lg:absolute lg:h-full"
               src="/medical.jpg"
               alt=""
@@ -16,7 +17,7 @@ function About() {
         <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-12 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <img
+              <Image
                 className="h-10 w-auto sm:h-10"
                 src="/logosm.png"
                 alt=""
@@ -25,7 +26,7 @@ function About() {
                 About ODLC University of Calabar.
               </h3>
               <p className="mt-8 text-md text-gray-500">
-              The Open and Distance Learning Centre of the University of Calabar was set up  in December 2022 following approvals from the University Senate, Council and the inspection visit of the National Universities Commission (NUC). Against this backdrop, the Vice Chancellor appointed the first Director who was expected to put in place arrangements and facilities in preparation for an approval visit by the NUC. The Centre is now set for NUC’s visit, approval and eventual take off. The idea
+              The Open and Distance Learning Centre of the University of Calabar was set up  in December 2022 following approvals from the University Senate, Council and the inspection visit of the National Universities Commission (NUC). Against this backdrop, the Vice Chancellor appointed the first Director who was expected to put in place arrangements and facilities in preparation for an approval visit by the NUC. The Centre is now set for NUC visit, approval and eventual take off. The idea
               </p>
               <div className="prose prose-indigo mt-5 text-gray-500">
 
