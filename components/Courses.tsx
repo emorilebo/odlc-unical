@@ -27,7 +27,7 @@ function Courses() {
           Available Programmes
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-        Explore a diverse range of courses and programmes that cater to your academic and career aspirations at the University of Calabar Open and Distance Learning Centre.
+        Explore a diverse range of courses and programmes that cater to your academic and career aspirations at the University of Calabar Open and Distance Learning Centre.</p>
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
