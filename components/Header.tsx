@@ -83,6 +83,8 @@ export default function Header() {
                 <div className="flex items-center justify-start lg:w-0 lg:flex-1">
                   <Link href="/">
                     <Image
+                    width={100}
+                    height={100}
                       className="h-10 w-auto sm:h-10"
                       src="/logosm.png"
                       alt=""

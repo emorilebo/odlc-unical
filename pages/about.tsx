@@ -8,8 +8,10 @@ function About() {
         <div className="lg:absolute lg:inset-0">
           <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
             <Image
+            width={400}
+            height={300}
               className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="/medical.jpg"
+              src="/odlc.jpg"
               alt=""
             />
           </div>
@@ -18,6 +20,8 @@ function About() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
               <Image
+              width={100}
+              height={100}
                 className="h-10 w-auto sm:h-10"
                 src="/logosm.png"
                 alt=""

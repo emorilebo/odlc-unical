@@ -26,7 +26,7 @@ export default function Banner() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-2xl font-extrabold tracking-tight text-blue-900 sm:text-3xl md:text-4xl">
                 <span className="block text-red-500 xl:inline">
-                Open and Distance Learning at University of Calabar.
+                Open and Distance Learning, University of Calabar.
                 </span>{' '}
                 {/* <span className="block text-indigo-600 xl:inline">
                       online business
@@ -85,15 +85,28 @@ export default function Banner() {
             autoPlay={true}
           >
             <div>
-              <Image src="/library.jpg"  width={1600} height={936}  alt="Unical library" />
+              <Image src="/odlc.jpg"  width={1600} height={936}  alt="Open and Distance Learning" />
+              <p className="legend">Open and Distance Learning Center</p>
             </div>
             <div>
               <Image src="/gate.jpg" width={1600} height={936}  alt="Unical library" />
               <p className="legend">University of Calabar Gate</p>
             </div>
             <div>
+              <Image src="/bookshop.jpg" width={1600} height={936}  alt="Book shop" />
+              <p className="legend">Book shop</p>
+            </div>
+            <div>
+              <Image src="/dentistry.jpg" width={1600} height={936}  alt="Dentistry" />
+              <p className="legend">Faculty of Dentistry</p>
+            </div>
+            <div>
+              <Image src="/pav.jpg" width={1600} height={936}  alt="Lecture Classroom" />
+              <p className="legend">Lecture classroom</p>
+            </div>
+            <div>
               <Image src="/chapel.jpg" width={1600} height={936}  alt="Unical library" />
-              <p className="legend">University of Calabar Gate</p>
+              <p className="legend">Chapel of Redemption</p>
             </div>
           </Carousel>
         </div>
