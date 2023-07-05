@@ -57,18 +57,14 @@ function Courses() {
             className="group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white"
           >
             <div className="aspect-w-3 aspect-h-4 sm:aspect-none bg-gray-200 group-hover:opacity-75 sm:h-96">
-              {/* <img
-                src={product.imageSrc}
-                alt={product.imageAlt}
-                className="h-full w-full object-cover object-center sm:h-full sm:w-full"
-              /> */}
+            
               <Image
                 // layout="fill"
                 width={200}
                 height={200}
                 src={course.imageSrc}
                 alt={course.imageAlt}
-                className="h-1/2 w-1/2 object-cover object-center sm:h-full sm:w-full"
+                className="object-cover object-center sm:h-full sm:w-full"
               />
             </div>
             <div className="flex flex-1 flex-col space-y-2 p-4">
