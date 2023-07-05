@@ -13,10 +13,6 @@ const Home : NextPage = ()=>{
         <title>Open and Distance Learning, University of Calabar.</title>
         <link rel="icon" href="/logosm.png" />
       </Head>
-
-      <main>
-        
-      </main>
     </div>
   )
 }

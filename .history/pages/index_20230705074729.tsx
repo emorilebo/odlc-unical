@@ -14,9 +14,7 @@ const Home : NextPage = ()=>{
         <link rel="icon" href="/logosm.png" />
       </Head>
 
-      <main>
-        
-      </main>
+      
     </div>
   )
 }
