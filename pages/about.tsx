@@ -29,12 +29,13 @@ function About() {
               </p>
               <div className="prose prose-indigo mt-5 text-gray-500">
 
-                <p className="text-xl font-semibold text-black">Vision</p>
+                <p className="text-xl font-semibold mt-2 text-black">Vision</p>
                 <p>
-                  Elision expanded to the United States in a bid to diversify
-                  into the diaspora real estate market. Elisio Properties LLC
-                  was founded in 2018 when the Company launched into the U.S.
-                  market focusing on the air bnb business.
+                To be a Centre of excellence producing graduates that can favourably compete with their peers anywhere in the world, making significant contributions to development through research.
+                </p>
+                <p className="text-xl font-semibold mt-2 text-black">Mission</p>
+                <p>
+                To produce high-quality graduates and scholars in various fields of endeavours with ICT and entrepreneurial skills through quality online teaching and research.
                 </p>
                 <p>
                   In 2019 Elisio Properties invested in single family units.
