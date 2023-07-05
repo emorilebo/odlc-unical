@@ -36,9 +36,9 @@ import Link from 'next/link'
       icon: QuestionMarkCircleIcon,
     },
     {
-      name: 'Projects',
+      name: 'Coursess',
       description: "Your customers' data will be safe and secure...",
-      href: '/projects',
+      href: '/courses',
       icon: ViewGridIcon,
     },
     {
