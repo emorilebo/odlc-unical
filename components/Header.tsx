@@ -87,7 +87,7 @@ export default function Header() {
                       alt=""
                     />
                   </Link>
-                  <h1 className="items-center justify-center pl-3 text-lg font-semibold">Open and Distance Learning</h1>
+                  {/* <h1 className="items-center justify-center pl-3 text-lg font-semibold">Open and Distance Learning</h1> */}
                 
                   
                 </div>
@@ -100,38 +100,38 @@ export default function Header() {
                 <Popover.Group as="nav" className="hidden space-x-10 md:flex">
                   <Link 
                     href="/"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500"
+                    className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Home
                   </Link>
     
                   <a
                     href="/about"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500"
+                    className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     About Us
                   </a>
                   <a
                     href="/projects"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500"
+                    className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
-                    Projects
+                    Courses
                   </a>
                   <a
                     href="/team"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500"
+                    className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Team
                   </a>
                   <a
                     href="/impact"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500"
+                    className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Impact
                   </a>
                   <a
                     href="/news"
-                    className="text-base font-medium text-blue-800 hover:text-yellow-500 "
+                    className="text-base font-medium text-red-600 hover:text-yellow-500 "
                   >
                     News
                   </a>
@@ -139,7 +139,7 @@ export default function Header() {
                 <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
                   <a
                     href="/contact"
-                    className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-blue-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-yellow-500"
+                    className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-red-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-yellow-500"
                   >
                     Contact
                   </a>
@@ -166,15 +166,11 @@ export default function Header() {
                       <div>
                         <img
                           className="h-10 w-auto"
-                          src="/Logo-main.png"
-                          alt="Elisio"
+                          src="/logosm.png"
+                          alt="Uinical odlc"
                         />
                       </div>
-                      {/* <img
-                        className="h-8 w-auto sm:h-10 "
-                        src="/second.jpeg"
-                        alt=""
-                      /> */}
+                     
                       <div className="-mr-2">
                         <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Close menu</span>
@@ -191,10 +187,10 @@ export default function Header() {
                             className="-m-3 flex items-center rounded-md p-3  hover:bg-yellow-500"
                           >
                             <item.icon
-                              className="h-6 w-6 flex-shrink-0 text-indigo-800"
+                              className="h-6 w-6 flex-shrink-0 text-red-800"
                               aria-hidden="true"
                             />
-                            <span className="ml-3 text-base font-medium text-indigo-800">
+                            <span className="ml-3 text-base font-medium text-red-800">
                               {item.name}
                             </span>
                           </a>
@@ -207,7 +203,7 @@ export default function Header() {
                     <div>
                       <a
                         href="/contact"
-                        className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-yellow-500"
+                        className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-500"
                       >
                         Contact Us
                       </a>
