@@ -6,6 +6,7 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 
+
 const Home : NextPage = ()=>{
   return (
     <div>
