@@ -9,9 +9,29 @@ const courses = [
       name: 'B.Sc. Business Management (Accounting option)',
       href: '/accounting',
       price: ' ',
-      description: 'B.Sc. Business Management (Accounting option).',
+      description: 'The B.Sc. in Business Management (Accounting option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in both business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
       options: '',
-      imageSrc: '/bookshop.jpg',
+      imageSrc: '/accounting.jpg',
+      imageAlt: 'nasarawa.',
+    },
+    {
+      id: 2,
+      name: 'B.Sc. Business Management (Marketing option)',
+      href: '/accounting',
+      price: ' ',
+      description: 'The B.Sc. in Business Management (Marketing option) offered by the University of Calabar Open and Distance Learning Centre is designed to equip students with a strong foundation in business management principles and specialized knowledge in marketing strategies and practices. This program integrates core business concepts with in-depth marketing courses to prepare students for a successful career in the field of marketing.',
+      options: '',
+      imageSrc: '/management.jpeg',
+      imageAlt: 'nasarawa.',
+    },
+    {
+      id: 3,
+      name: 'B.Sc. Business Management (Banking and Finance option)',
+      href: '/accounting',
+      price: ' ',
+      description: 'The B.Sc. in Business Management (Banking and Finance option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a comprehensive understanding of business management principles with a specialized focus on banking and finance. This program combines core business courses with in-depth knowledge of banking operations, financial management, and investment strategies.',
+      options: '',
+      imageSrc: '/banking.jpeg',
       imageAlt: 'nasarawa.',
     },
 ]
@@ -23,7 +43,7 @@ function Courses() {
     <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 className="sr-only">Courses</h2>
       <div className="text-center">
-        <h2 className="text-3xl font-extrabold tracking-tight text-yellow-500 sm:text-4xl">
+        <h2 className="text-3xl font-extrabold tracking-tight text-red-500 sm:text-4xl">
           Available Programmes
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
