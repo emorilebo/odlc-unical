@@ -10,7 +10,7 @@ function About() {
             <Image
               width={400}
               height={300}
-              className="h-56 w-full object-cover lg:absolute lg:h-full"
+              className="h-56 w-full object-cover lg:absolute lg:h-80"
               src="/odlc.jpg"
               alt=""
             />

@@ -37,7 +37,7 @@ import Image from 'next/image'
       icon: QuestionMarkCircleIcon,
     },
     {
-      name: 'Coursess',
+      name: 'Courses',
       description: "Your customers' data will be safe and secure...",
       href: '/courses',
       icon: ViewGridIcon,
