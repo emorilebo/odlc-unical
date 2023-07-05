@@ -24,9 +24,9 @@ export default function Banner() {
 
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-2xl font-extrabold tracking-tight text-blue-900 sm:text-4xl md:text-5xl">
-                <span className="block text-yellow-500 xl:inline">
-                  Sustainable living through
+              <h1 className="text-2xl font-extrabold tracking-tight text-blue-900 sm:text-3xl md:text-4xl">
+                <span className="block text-red-500 xl:inline">
+                Open and Distance Learning at University of Calabar.
                 </span>{' '}
                 {/* <span className="block text-indigo-600 xl:inline">
                       online business
@@ -34,14 +34,17 @@ export default function Banner() {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString('Quality & Value for money')
+                      .typeString('Flexible Education for a Dynamic World')
+                      .pauseFor(3000)
+                      .deleteAll()
+                      .typeString('Transformative Learning Experience')
                       .pauseFor(2000)
                       .deleteAll()
-                      .typeString('Integrity')
+                      .typeString('Breaking Barriers, Empowering Minds')
+                      .pauseFor(2000)
                       .deleteAll()
-                      .typeString('Honesty')
-                      .deleteAll()
-                      .typeString('Sustainability')
+                      .typeString('Discover Our Online Degree Programs')
+                      .pauseFor(1000)
                       .deleteAll()
                       .start()
                   }}
