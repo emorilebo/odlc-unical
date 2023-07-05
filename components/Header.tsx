@@ -106,44 +106,44 @@ export default function Header() {
                     Home
                   </Link>
     
-                  <a
+                  <Link
                     href="/about"
                     className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     About Us
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/courses"
                     className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Courses
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/team"
                     className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Team
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/impact"
                     className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Impact
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/news"
                     className="text-base font-medium text-red-600 hover:text-yellow-500 "
                   >
                     News
-                  </a>
+                  </Link>
                 </Popover.Group>
                 <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-                  <a
+                  <Link
                     href="/contact"
                     className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-red-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-yellow-500"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -202,12 +202,12 @@ export default function Header() {
                   <div className="space-y-6 py-6 px-5">
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8"></div>
                     <div>
-                      <a
+                      <Link
                         href="/contact"
                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-500"
                       >
                         Contact Us
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
