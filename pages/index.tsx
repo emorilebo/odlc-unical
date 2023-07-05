@@ -1,5 +1,6 @@
 
 import Banner from '@/components/Banner'
+import Courses from '@/components/Courses'
 import { NextPage } from 'next'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
@@ -17,6 +18,7 @@ const Home : NextPage = ()=>{
 
       <main>
         <Banner/>
+        <Courses/>
       </main>
     </div>
   )
