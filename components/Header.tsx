@@ -112,7 +112,7 @@ export default function Header() {
                     About Us
                   </a>
                   <a
-                    href="/projects"
+                    href="/courses"
                     className="text-base font-medium text-red-600 hover:text-yellow-500"
                   >
                     Courses
