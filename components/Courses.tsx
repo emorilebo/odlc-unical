@@ -157,7 +157,7 @@ function Courses() {
                 height={200}
                 src={course.imageSrc}
                 alt={course.imageAlt}
-                className="object-cover object-center sm:h-full sm:w-full"
+                className="object-cover object-center h-full w-full"
               />
             </div>
             <div className="flex flex-1 flex-col space-y-2 p-4">
