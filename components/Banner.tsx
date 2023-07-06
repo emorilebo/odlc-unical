@@ -55,19 +55,19 @@ export default function Banner() {
               Offering a flexible and accessible learning experience that breaks down barriers to education. Through our online programmes, we empower learners to pursue their academic and professional goals, providing high-quality education anytime and anywhere.{' '}
               </p>
 
-              <div className="mt-5 hidden sm:mt-8 sm:justify-center lg:inline-flex lg:justify-start">
+              <div className="mt-5 sm:mt-8 sm:justify-center lg:inline-flex lg:justify-start">
                 <div className=" rounded-md shadow">
                   <Link
                     href="https://odlc.unical.edu.ng"
-                    className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-md"
                   >
-                    Visit Portal
+                    Visit ODLC Portal
                   </Link>
                 </div>
                 <div className=" mt-3 sm:mt-0 sm:ml-3">
                   <Link
                     href="https://myunical.edu.ng/"
-                    className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className=" flex w-full items-center justify-center rounded-md border border-red-600 bg-white px-8 py-3 text-md font-medium text-red-600 hover:bg-indigo-700 md:py-4 md:px-10 md:text-md"
                   >
                     Visit Unical
                   </Link>
@@ -75,7 +75,7 @@ export default function Banner() {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link
                     href="/contact"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-md font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-md"
                   >
                     Contact Us
                   </Link>
