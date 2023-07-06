@@ -44,8 +44,8 @@ const anticipatedCources = [
         price: ' ',
         description: 'The B.Sc. in Business Management (Accounting option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in both business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
         options: '',
-        imageSrc: '/accounting.jpg',
-        imageAlt: 'nasarawa.',
+        imageSrc: '/accounting2.jpg',
+        imageAlt: 'courses.',
       },
     {
         id: 2,
@@ -54,8 +54,8 @@ const anticipatedCources = [
         price: ' ',
         description: 'The B.Sc. in Business Management (Accounting option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in both business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
         options: '',
-        imageSrc: '/accounting.jpg',
-        imageAlt: 'nasarawa.',
+        imageSrc: '/marketing.jpg',
+        imageAlt: 'courses.',
       },
     {
         id: 3,
@@ -64,8 +64,8 @@ const anticipatedCources = [
         price: ' ',
         description: 'The B.Sc. in Business Management (Accounting option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in both business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
         options: '',
-        imageSrc: '/accounting.jpg',
-        imageAlt: 'nasarawa.',
+        imageSrc: '/banking.jpeg',
+        imageAlt: 'courses.',
       },
     {
         id: 4,
