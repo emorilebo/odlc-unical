@@ -90,7 +90,7 @@ export default function Header() {
                       alt=""
                     />
                   </Link>
-                  <h1 className="items-center justify-center pl-3 text-md font-semibold">Open and Distance Learning</h1>
+                  <h1 className="items-center justify-center pl-3 text-sm font-semibold">Open and Distance Learning Center</h1>
                 
                   
                 </div>
