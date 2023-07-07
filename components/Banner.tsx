@@ -98,7 +98,7 @@ export default function Banner() {
               <p className="legend">Open and Distance Learning Center</p>
             </div>
             <div>
-              <Image src="/gate.jpg" width={1600} height={936}  alt="Unical library" />
+              <Image src="/gate4.jpg" width={1600} height={936}  alt="Unical Entrance" />
               <p className="legend">University of Calabar Gate</p>
             </div>
             <div>
@@ -114,7 +114,7 @@ export default function Banner() {
               <p className="legend">Lecture classroom</p>
             </div>
             <div>
-              <Image src="/chapel.jpg" width={1600} height={936}  alt="Unical library" />
+              <Image src="/chapelofredemption.jpg" width={1600} height={936}  alt="Unical library" />
               <p className="legend">Chapel of Redemption</p>
             </div>
           </Carousel>
