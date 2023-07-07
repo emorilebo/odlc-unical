@@ -25,9 +25,9 @@ export default function Banner() {
 
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-2xl font-extrabold tracking-tight text-blue-900 sm:text-3xl md:text-4xl">
+              <h1 className="text-2xl font-extrabold tracking-tight text-blue-900 sm:text-2xl md:text-4xl">
                 <span className="block text-red-500 xl:inline">
-                Open and Distance Learning, University of Calabar.
+                Open and Distance Learning Centre, University of Calabar.
                 </span>{' '}
                 {/* <span className="block text-indigo-600 xl:inline">
                       online business
