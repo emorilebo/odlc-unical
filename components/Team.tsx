@@ -12,7 +12,7 @@ const people = [
   {
     name: "Prof. Mbe Egom Nja  FRSS (London), JP",
     role: "Director",
-    imageUrl: "/profnja.png",
+    imageUrl: "/profnjanew.jpg",
     bio: "B. Sc. (Jos), M. Sc. (Calabar), Ph.D. (Ibadan), ",
     twitterUrl: "#",
     linkedinUrl: "#",
