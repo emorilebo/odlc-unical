@@ -56,10 +56,43 @@ export default function Odlcform() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="mx-auto max-w-2xl ">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Buy Form here</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Fill in the following information accurately to acquire the form.
+         <p className='mb-4'> Fill in the following information accurately to acquire the form.</p>
+        <li> Admission Requirements for Candidates seeking Admission into Year 1 
+Candidates seeking admission to Year 1 should possess one of the following:</li>
+ <p>i.	Five credits passes in the SSCE/GCE/NECO/NABTEB OLevel, including English Language and Mathematics, and any other three subjects relevant to their cognate area taken at not more than two sittings.
+  </p>      
+<p className='mb-4'>ii.	Five merits in the NABTEB/TC II in relevant subjects.</p>
+
+<li>
+Admission Requirements for Candidates seeking Admission into Year 2
+Candidates seeking admission to Year 2 should possess one of the following:
+</li>
+<p>1.	The National Certificate of Education (NCE) with at least Merit grades in two relevant teaching subjects.</p>
+<p>2.	The National Diploma (ND) in relevant fields with a minimum of lower credit.</p>
+<p className='mb-4'>
+3.	GCE ALevel with at least credit grades in three relevant subjects.
+</p>
+
+
+
+
+<li>
+Admission Requirements for Candidates seeking Admission into Year 3
+Candidates seeking admission to Year 3 in the relevant programme should possess at least one of the followings:
+</li>
+
+<p>1.	Higher National Diploma (HND) in relevant fields with a minimum overall grade of lower credit.</p>
+<p>2.	Bachelors degree with a minimum Pass Class in a relevant discipline obtained from a recognized university.</p>
+<p className='mb-4'>3.	Recognized professional qualifications such as ACA, ACMA, ACIA, ACIS, ACIB, etc.</p>
+
+
+
+
+Candidates seeking admission to Years 2 and 3 must also possess the minimum OLevel requirements.
+
         </p>
       </div>
       <form action="#" method="POST" className="mx-auto mt-10 max-w-xl sm:mt-12">
