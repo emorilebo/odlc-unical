@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useLayoutEffect, useRef, useState} from 'react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Switch } from '@headlessui/react'
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
+
+function classNames(...classes: any[]) {
+  return classes.filter(Boolean).join(' ')
+}
 
 
 const olevels = [
@@ -17,12 +18,29 @@ const olevels = [
   { name: '7', title: '', email: '', role: '' },
   { name: '8', title: '', email: '', role: '' },
   { name: '9', title: '', email: '', role: '' },
-  // More people...
+  
 ]
+
+const people = [
+  {
+    name: 'Lindsay Walton',
+    title: 'Front-end Developer',
+    email: 'lindsay.walton@example.com',
+    role: 'Member',
+  },
+  // More people...
+];
 
 
 export default function Odlcform() {
   const [agreed, setAgreed] = useState(false)
+
+  const checkbox = useRef()
+  const [checked, setChecked] = useState(false)
+  const [indeterminate, setIndeterminate] = useState(false)
+  const [selectedPeople, setSelectedPeople] = useState([])
+
+ 
 
   return (
     <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -129,6 +147,24 @@ export default function Odlcform() {
                 autoComplete="tel"
                 className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
+            </div>
+          </div>
+          <div className="sm:col-span-2">
+            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+              Gender
+            </label>
+            <div className="flex mt-2.5">
+              <div className=" inset-y-0 left-0 items-center space-x-4">
+               <label className='space-x-2'>
+                <input type='checkbox'/>
+                <span>Male</span>
+               </label>
+               <label className='space-x-2'>
+                <input type='checkbox'/>
+                <span>Female</span>
+               </label>
+              </div>
+              
             </div>
           </div>
           <div className="sm:col-span-2">
