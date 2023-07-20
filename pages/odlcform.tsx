@@ -60,13 +60,13 @@ export default function Odlcform() {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Buy Form here</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
          <p className='mb-4'> Fill in the following information accurately to acquire the form.</p>
-        <li> Admission Requirements for Candidates seeking Admission into Year 1 
+        <li className='font-semibold'> Admission Requirements for Candidates seeking Admission into Year 1 
 Candidates seeking admission to Year 1 should possess one of the following:</li>
  <p>i.	Five credits passes in the SSCE/GCE/NECO/NABTEB OLevel, including English Language and Mathematics, and any other three subjects relevant to their cognate area taken at not more than two sittings.
   </p>      
 <p className='mb-4'>ii.	Five merits in the NABTEB/TC II in relevant subjects.</p>
 
-<li>
+<li className='font-semibold'>
 Admission Requirements for Candidates seeking Admission into Year 2
 Candidates seeking admission to Year 2 should possess one of the following:
 </li>
@@ -79,7 +79,7 @@ Candidates seeking admission to Year 2 should possess one of the following:
 
 
 
-<li>
+<li className='font-semibold'>
 Admission Requirements for Candidates seeking Admission into Year 3
 Candidates seeking admission to Year 3 in the relevant programme should possess at least one of the followings:
 </li>
