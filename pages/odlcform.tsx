@@ -88,9 +88,6 @@ Candidates seeking admission to Year 3 in the relevant programme should possess 
 <p>2.	Bachelors degree with a minimum Pass Class in a relevant discipline obtained from a recognized university.</p>
 <p className='mb-4'>3.	Recognized professional qualifications such as ACA, ACMA, ACIA, ACIS, ACIB, etc.</p>
 
-
-
-
 Candidates seeking admission to Years 2 and 3 must also possess the minimum OLevel requirements.
 
         </p>
