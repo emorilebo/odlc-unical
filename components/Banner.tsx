@@ -74,10 +74,10 @@ export default function Banner() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <Link
-                    href="/contact"
+                    href="/odlcform"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-md font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-md"
                   >
-                    Contact Us
+                    Buy Form
                   </Link>
                 </div>
               </div>
