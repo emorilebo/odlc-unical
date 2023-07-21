@@ -77,7 +77,7 @@ export default function Banner() {
                     href="/odlcform"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-md font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-md"
                   >
-                    Buy Form
+                    Addmission
                   </Link>
                 </div>
               </div>
