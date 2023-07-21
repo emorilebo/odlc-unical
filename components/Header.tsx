@@ -136,7 +136,7 @@ export default function Header() {
                     href="/news"
                     className="text-base font-medium text-red-600 hover:text-yellow-500 "
                   >
-                    Newss
+                    News
                   </Link>
                 </Popover.Group>
                 <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
