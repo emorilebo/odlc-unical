@@ -214,7 +214,7 @@ export default function Header() {
                         href="/contact"
                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-500"
                       >
-                        Contact Us
+                        GOTO LMS
                       </Link>
                     </div>
                   </div>
