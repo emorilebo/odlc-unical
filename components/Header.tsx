@@ -141,7 +141,7 @@ export default function Header() {
                 </Popover.Group>
                 <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
                   <Link
-                    href="/contact"
+                    href="http://odlclms.unical.edu.ng/"
                     className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-yellow-500"
                   >
                     GOTO LMS
