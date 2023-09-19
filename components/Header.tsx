@@ -211,7 +211,7 @@ export default function Header() {
                     <div className="grid grid-cols-2 gap-y-4 gap-x-8"></div>
                     <div>
                       <Link
-                        href="/contact"
+                        href="http://odlclms.unical.edu.ng/"
                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-500"
                       >
                         GOTO LMS
