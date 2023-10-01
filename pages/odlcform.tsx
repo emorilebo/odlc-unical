@@ -57,9 +57,9 @@ export default function Odlcform() {
         />
       </div>
       <div className="mx-auto max-w-2xl ">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Buy Form here</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Admission Form here</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-         <p className='mb-4'> Fill in the following information accurately to acquire the form.</p>
+         <p className='mb-4'> Fill in the following information accurately to acquire admission form.</p>
         <li className='font-semibold'> Admission Requirements for Candidates seeking Admission into Year 1 
 Candidates seeking admission to Year 1 should possess one of the following:</li>
  <p>i.	Five credits passes in the SSCE/GCE/NECO/NABTEB OLevel, including English Language and Mathematics, and any other three subjects relevant to their cognate area taken at not more than two sittings.
