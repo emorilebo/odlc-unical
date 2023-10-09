@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
 import Courses from "@/components/Courses";
 import Odlcform from "@/components/Odlcform";
 import Team from "@/components/Team";
@@ -24,12 +25,11 @@ const Home: NextPage = () => {
             About ODLC, University of Calabar.
           </h2>
         </div>
-
         <About />
         <Courses />
-        <Odlcform/>
-        
+        <Odlcform />
         <Team />
+        <Contact />
       </main>
     </div>
   );
