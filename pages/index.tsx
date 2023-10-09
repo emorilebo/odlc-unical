@@ -18,8 +18,8 @@ const Home: NextPage = () => {
 
       <main className="bg-white">
         <Banner />
-        <div className="text-center my-8 ">
-          <h2 className="text-3xl font-extrabold tracking-tight  sm:text-4xl">
+        <div className="text-center my-10">
+          <h2 className="text-3xl font-extrabold tracking-tight text-red-500 sm:text-4xl">
             About ODLC, University of Calabar.
           </h2>
         </div>
