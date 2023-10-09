@@ -77,7 +77,7 @@ export default function Banner() {
                     href="/odlcform"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-md font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-md"
                   >
-                    Admission
+                    Apply Now
                   </Link>
                 </div>
               </div>
@@ -93,6 +93,10 @@ export default function Banner() {
             infiniteLoop={true}
             autoPlay={true}
           >
+            <div>
+              <Image src="/admission.jpg"  width={1600} height={1000}  alt="Open and Distance Learning" />
+              <p className="legend">Open and Distance Learning Center</p>
+            </div>
             <div>
               <Image src="/odlc.jpg"  width={1600} height={936}  alt="Open and Distance Learning" />
               <p className="legend">Open and Distance Learning Center</p>
