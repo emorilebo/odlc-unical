@@ -11,6 +11,7 @@ function contact() {
           <h1 className="text-center text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl">
             Get in touch
           </h1>
+          <p className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-normal text-blue-900 italic"> dirodlc@unical.edu.ng; 07069099650</p>
           <p className="mx-auto mt-6 max-w-3xl text-center text-xl leading-normal text-gray-500">
           We appreciate your interest in the University of Calabar Open and Distance Learning Centre. If you have any questions, inquiries, or feedback, please feel free to reach out to us using the contact information provided below. Our dedicated team is here to assist you.
           </p>
@@ -37,6 +38,7 @@ function contact() {
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               General Inquiries:
               </h2>
+             
               <p className="mt-4 text-lg text-gray-500 sm:mt-3">
               For general inquiries about our Open and Distance Learning Centre, our programmes, admission process, or any other information, please contact our friendly support staff. We are here to provide you with the assistance you need.
               </p>
