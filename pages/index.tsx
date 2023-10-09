@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Courses from "@/components/Courses";
+import Odlcform from "@/components/Odlcform";
 import Team from "@/components/Team";
 import { NextPage } from "next";
 import { Inter } from "next/font/google";
@@ -25,8 +26,9 @@ const Home: NextPage = () => {
         </div>
 
         <About />
-        
         <Courses />
+        <Odlcform/>
+        
         <Team />
       </main>
     </div>
