@@ -18,14 +18,16 @@ function About() {
         </div>
         <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-12 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div className="lg:col-start-2 lg:pl-8">
-            <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <Image
+            <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg ">
+             <div className="flex justify-center">
+             <Image
                 width={120}
                 height={120}
                 className="h-15 w-auto sm:h-10"
                 src="/logosm.png"
                 alt=""
               />
+             </div>
               {/* <h3 className="mt-1 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl">
                 About ODLC University of Calabar.
               </h3> */}
