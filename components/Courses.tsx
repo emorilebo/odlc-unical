@@ -6,34 +6,34 @@ import React from 'react'
 const courses = [
     {
       id: 1,
-      name: 'B.Sc. Business Management (Accounting option)',
+      name: 'B.Sc. Business Management ',
       href: '/accounting',
       price: ' ',
-      description: 'The B.Sc. in Business Management (Accounting option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in both business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
-      options: '',
-      imageSrc: '/accounting.jpg',
-      imageAlt: 'nasarawa.',
-    },
-    {
-      id: 2,
-      name: 'B.Sc. Business Management (Marketing option)',
-      href: '/accounting',
-      price: ' ',
-      description: 'The B.Sc. in Business Management (Marketing option) offered by the University of Calabar Open and Distance Learning Centre is designed to equip students with a strong foundation in business management principles and specialized knowledge in marketing strategies and practices. This program integrates core business concepts with in-depth marketing courses to prepare students for a successful career in the field of marketing.',
+      description: 'The B.Sc. in Business Management offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
       options: '',
       imageSrc: '/management.jpeg',
-      imageAlt: 'nasarawa.',
+      imageAlt: 'Business Management.',
     },
-    {
-      id: 3,
-      name: 'B.Sc. Business Management (Banking and Finance option)',
-      href: '/accounting',
-      price: ' ',
-      description: 'The B.Sc. in Business Management (Banking and Finance option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a comprehensive understanding of business management principles with a specialized focus on banking and finance. This program combines core business courses with in-depth knowledge of banking operations, financial management, and investment strategies.',
-      options: '',
-      imageSrc: '/banking.jpeg',
-      imageAlt: 'nasarawa.',
-    },
+    // {
+    //   id: 2,
+    //   name: 'B.Sc. Business Management (Marketing option)',
+    //   href: '/accounting',
+    //   price: ' ',
+    //   description: 'The B.Sc. in Business Management (Marketing option) offered by the University of Calabar Open and Distance Learning Centre is designed to equip students with a strong foundation in business management principles and specialized knowledge in marketing strategies and practices. This program integrates core business concepts with in-depth marketing courses to prepare students for a successful career in the field of marketing.',
+    //   options: '',
+    //   imageSrc: '/management.jpeg',
+    //   imageAlt: 'nasarawa.',
+    // },
+    // {
+    //   id: 3,
+    //   name: 'B.Sc. Business Management (Banking and Finance option)',
+    //   href: '/accounting',
+    //   price: ' ',
+    //   description: 'The B.Sc. in Business Management (Banking and Finance option) offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a comprehensive understanding of business management principles with a specialized focus on banking and finance. This program combines core business courses with in-depth knowledge of banking operations, financial management, and investment strategies.',
+    //   options: '',
+    //   imageSrc: '/banking.jpeg',
+    //   imageAlt: 'nasarawa.',
+    // },
 ]
 
 const anticipatedCources = [
@@ -137,10 +137,13 @@ function Courses() {
       <h2 className="sr-only">Courses</h2>
       <div className="text-center">
         <h2 className="text-3xl font-extrabold tracking-tight text-red-500 sm:text-4xl">
-          Available Programmes
+          Available Programme
         </h2>
+        {/* <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+        Explore a diverse range of courses and programmes that cater to your academic and career aspirations at the University of Calabar Open and Distance Learning Centre.</p> */}
+      
         <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-        Explore a diverse range of courses and programmes that cater to your academic and career aspirations at the University of Calabar Open and Distance Learning Centre.</p>
+        Explore the programme that cater to your academic and career aspirations at the University of Calabar Open and Distance Learning Centre.</p>
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
