@@ -33,7 +33,7 @@ const incentives = [
 
 function Odlcform() {
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-white px-6  sm:py-3 lg:px-8">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
@@ -46,7 +46,7 @@ function Odlcform() {
           }}
         />
       </div>
-      <h2 className="mx-auto text-3xl text-center font-bold tracking-tight mb-10 pb-5 text-red-600 sm:text-4xl">
+      <h2 className="mx-auto text-3xl text-center font-bold tracking-tight mb-10 pb-2 text-red-600 sm:text-4xl">
         Admission Requirements
       </h2>
       <div className="bg-gray-50 ">
