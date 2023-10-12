@@ -89,6 +89,7 @@ function Odlcform() {
                 requirements also satisfy the entry qualification required for
                 admission into 100 level.
                 </p>
+               
                  
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
@@ -98,8 +99,11 @@ function Odlcform() {
                   className="object-cover object-center"
                 />
               </div>
+              
             </div>
-            
+            <p className="mt-10 text-lg font-semibold">
+                If you meet the requirements above, click on the Proceed button below to acquire the admission form for N20, 000.
+              </p>
           </div>
         </div>
       </div>
