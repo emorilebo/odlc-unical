@@ -104,7 +104,7 @@ function Odlcform() {
         </div>
       </div>
       
-      <div className="mt-10 mx-auto max-w-xl sm:mt-12">
+      <div className="mt-10 mx-auto max-w-xl sm:mt-12 pb-10">
         <Link
           href="https://odlcportal.unical.edu.ng/Identity/Admission/SearchAdmissionListWithPin"
           className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-red-400 md:py-4 md:px-10 md:text-md"
