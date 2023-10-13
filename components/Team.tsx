@@ -25,15 +25,10 @@ function Team() {
      <div className="bg-gray-900">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-yellow-500 sm:text-4xl">
+          <h2 className="text-3xl mb-8 font-extrabold tracking-tight text-yellow-500 sm:text-4xl">
             Our Team
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-          &quot;Its not the load that breaks you down, its the way you carry it.&quot;
-          </p>
-          <p className="mx-auto mt-3 mb-10 max-w-2xl text-xl text-gray-500 sm:mt-4">
-            – Lou Holtz,
-          </p>
+          
         </div>
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="lg:col-span-3">

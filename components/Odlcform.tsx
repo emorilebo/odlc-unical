@@ -92,13 +92,13 @@ function Odlcform() {
                
                  
               </div>
-              <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
+              {/* <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                 <img
                   src="/admission2.jpg"
                   alt=""
                   className="object-cover object-center"
                 />
-              </div>
+              </div> */}
               
             </div>
             <p className="mt-10 text-lg font-semibold">

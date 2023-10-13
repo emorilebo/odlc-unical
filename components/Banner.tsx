@@ -105,10 +105,10 @@ export default function Banner() {
               <Image src="/gate4.jpg" width={1600} height={936}  alt="Unical Entrance" />
               <p className="legend">University of Calabar Gate</p>
             </div>
-            <div>
+            {/* <div>
               <Image src="/bookshop.jpg" width={1600} height={936}  alt="Book shop" />
               <p className="legend">Book shop</p>
-            </div>
+            </div> */}
             <div>
               <Image src="/dentistry.jpg" width={1600} height={936}  alt="Dentistry" />
               <p className="legend">Faculty of Dentistry</p>

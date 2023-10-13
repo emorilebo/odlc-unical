@@ -9,7 +9,7 @@ const courses = [
       name: 'B.Sc. Business Management ',
       href: '/accounting',
       price: ' ',
-      description: 'The B.Sc. in Business Management offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in business management and accounting principles. This program integrates essential business knowledge with specialized accounting skills to prepare students for a successful career in the field of accounting.',
+      description: 'The B.Sc. in Business Management offered by the University of Calabar Open and Distance Learning Centre is designed to provide students with a solid foundation in business management and accounting principles. This program inculcates in students the sensitvity that recongnizes business opportunities in every environmental setting.',
       options: '',
       imageSrc: '/management.jpeg',
       imageAlt: 'Business Management.',

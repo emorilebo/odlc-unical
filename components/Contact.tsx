@@ -36,11 +36,11 @@ function Contact() {
           <div className="lg:pr-8">
             <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              General Inquiries:
+               Inquiries:
               </h2>
              
               <p className="mt-4 text-lg text-gray-500 sm:mt-3">
-              For general inquiries about our Open and Distance Learning Centre, our programmes, admission process, or any other information, please contact our friendly support staff. We are here to provide you with the assistance you need.
+              For inquiries about our Open and Distance Learning Centre, our programmes, admission process, or any other information, please contact our friendly support staff. We are here to provide you with the assistance you need.
               </p>
               <form
                 action="#"
