@@ -73,24 +73,22 @@ function Odlcform() {
                   requirements may be considered for admission into 200 level.
                 </p>
                 <p className="mt-4 text-gray-500">
-                Candidates with National Diploma (ND) or OND in relevant
-                programmes with a minimum of Lower Credit or it&#39;s equivalent
-                from recognized Institutions may be considered for admission
-                into 200 level. 
+                  Candidates with National Diploma (ND) or OND in relevant
+                  programmes with a minimum of Lower Credit or it&#39;s
+                  equivalent from recognized Institutions may be considered for
+                  admission into 200 level.
                 </p>
                 <p className="mt-4 text-gray-500">
-                Holders of the Nigerian Certificate in Education
-                (NCE) in relevant programmes may be considered for admission
-                into 200 level.
+                  Holders of the Nigerian Certificate in Education (NCE) in
+                  relevant programmes may be considered for admission into 200
+                  level.
                 </p>
                 <p className="mt-4 text-gray-500">
-                All candidates seeking admission into Direct
-                Entry must in addition to satisfying the Direct Entry
-                requirements also satisfy the entry qualification required for
-                admission into 100 level.
+                  All candidates seeking admission into Direct Entry must in
+                  addition to satisfying the Direct Entry requirements also
+                  satisfy the entry qualification required for
+                  admission into 100 level.
                 </p>
-               
-                 
               </div>
               {/* <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                 <img
@@ -99,18 +97,18 @@ function Odlcform() {
                   className="object-cover object-center"
                 />
               </div> */}
-              
             </div>
             <p className="mt-10 text-lg font-semibold">
-                If you meet the requirements above, click on the Proceed button below to acquire the admission form for N20, 000.
-              </p>
+              If you meet the requirements above, click on the Proceed button
+              below to acquire the admission form for N20, 000.
+            </p>
           </div>
         </div>
       </div>
-      
+
       <div className="mt-10 mx-auto max-w-xl sm:mt-12 pb-10">
         <Link
-          href="https://odlcportal.unical.edu.ng/Identity/Admission/SearchAdmissionListWithPin"
+          href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
           className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-red-400 md:py-4 md:px-10 md:text-md"
         >
           Proceed
