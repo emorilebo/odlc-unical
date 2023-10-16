@@ -63,13 +63,13 @@ export default function Banner() {
                     href="https://odlcportal.unical.edu.ng"
                     className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-md"
                   >
-                    Visit ODLC Portal
+                    Visit Portal for Application
                   </Link>
                 </div>
                 <div className=" mt-3 sm:mt-0 sm:ml-3">
                   <Link
                     href="https://unical.edu.ng/"
-                    className=" flex w-full items-center justify-center rounded-md border border-red-600 bg-white px-8 py-3 text-md font-medium text-red-600 hover:bg-red-700 md:py-4 md:px-10 md:text-md"
+                    className=" flex w-full items-center justify-center rounded-md border border-red-600 bg-white px-8 py-3 text-md font-medium text-red-600 hover:bg-red-700 hover:text-white md:py-4 md:px-10 md:text-md"
                   >
                     Visit Unical
                   </Link>
