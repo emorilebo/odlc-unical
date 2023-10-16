@@ -10,7 +10,7 @@ function About() {
             <Image
               width={400}
               height={300}
-              className="h-56 w-full object-cover lg:absolute lg:h-80"
+              className="pl-8 h-56 w-full object-cover lg:absolute lg:h-80"
               src="/odlc.jpg"
               alt=""
             />
@@ -19,15 +19,15 @@ function About() {
         <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-12 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div className="lg:col-start-2 lg:pl-8">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg ">
-             <div className="flex justify-center">
-             <Image
-                width={120}
-                height={120}
-                className="h-15 w-auto sm:h-10"
-                src="/logosm.png"
-                alt=""
-              />
-             </div>
+              <div className="flex justify-center">
+                <Image
+                  width={120}
+                  height={120}
+                  className="h-15 w-auto sm:h-10"
+                  src="/logosm.png"
+                  alt=""
+                />
+              </div>
               {/* <h3 className="mt-1 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-3xl">
                 About ODLC University of Calabar.
               </h3> */}
@@ -73,8 +73,8 @@ function About() {
                   students. In the meantime we are admitting students into the
                   B. Sc. Business Management programme. In 2024, more programmes
                   will be included. Interested candidates can purchase the
-                  Admission Form as indicated and proceed with the
-                  admission processing.
+                  Admission Form as indicated and proceed with the admission
+                  processing.
                 </p>
               </div>
             </div>
