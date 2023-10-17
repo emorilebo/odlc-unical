@@ -95,7 +95,13 @@ function Odlcform() {
             </p>
 
             <li className="mt-1 text-md">
-              If you meet the requirements above, click on the Proceed button
+              If you meet the requirements above, click on the{" "}
+              <a
+                className="text-red-600 font-semibold"
+                href="https://odlcportal.unical.edu.ng/Identity/Payment/BuyAdmissionCheckerPin"
+              >
+                Proceed button
+              </a>{" "}
               below.
             </li>
             <li className="mt-1 text-md">
@@ -107,7 +113,12 @@ function Odlcform() {
               on the Proceed Button, and then the Buy Now Button.
             </li>
             <li className="mt-1 text-md">
-              Pay the form fee either using your ATM Card or Transfer or Bank or USSD or Visa QR option
+              Pay the form fee either using your ATM Card or Transfer or Bank or
+              USSD or Visa QR option
+            </li>
+            <li className="mt-1 text-md">
+              On payment success, an Admission PIN will be sent to your email
+              address
             </li>
           </div>
         </div>
