@@ -104,7 +104,10 @@ function Odlcform() {
             </li>
             <li className="mt-1 text-md">
               Input your First Name, Surname, Email, Phone Number and then Click
-              on the Proceed Button.
+              on the Proceed Button, and then the Buy Now Button.
+            </li>
+            <li className="mt-1 text-md">
+              Pay the form fee either using your ATM Card or Transfer or Bank or USSD or Visa QR option
             </li>
           </div>
         </div>
