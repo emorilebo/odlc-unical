@@ -90,51 +90,53 @@ function Odlcform() {
                 />
               </div> */}
             </div>
-            <p className="mt-10 text-lg font-semibold">
-              Instructions to purchase the Admission Form
-            </p>
+            <div className="text-sm">
+              <p className="mt-10 text-lg font-semibold">
+                Instructions to purchase the Admission Form
+              </p>
 
-            <li className="mt-1 text-md">
-              If you meet the requirements above, click on the{" "}
-              <a
-                className="text-red-600 font-semibold"
-                href="https://odlcportal.unical.edu.ng/Identity/Payment/BuyAdmissionCheckerPin"
-              >
-                Proceed button
-              </a>{" "}
-              below.
-            </li>
-            <li className="mt-1 text-md">
-              This would take you to the ODLC PORTAL to Buy ODLC Form, you will
-              use this form to purchase your ODLC Form PIN.
-            </li>
-            <li className="mt-1 text-md">
-              Input your First Name, Surname, Email, Phone Number and then Click
-              on the Proceed Button, and then the Buy Now Button.
-            </li>
-            <li className="mt-1 text-md">
-              Pay the form fee either using your ATM Card or Transfer or Bank or
-              USSD or Visa QR option.
-            </li>
-            <li className="mt-1 text-md">
-              On payment success, an Admission PIN will be sent to your email
-              address.
-            </li>
-            <li className="mt-1 text-md">
-              Go back to{" "}
-              <a
-                className="text-red-600 font-semibold"
-                href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
-              >
-                ODLC PORTAL
-              </a>{" "}
-              and login using your email from the registration and the PIN as
-              your password.
-            </li>
-            <li className="mt-1 text-md">
-              Follow the instructions on the screen on login to upload your
-              credentials.
-            </li>
+              <li className="mt-1 text-md">
+                If you meet the requirements above, click on the{" "}
+                <a
+                  className="text-red-600 font-semibold"
+                  href="https://odlcportal.unical.edu.ng/Identity/Payment/BuyAdmissionCheckerPin"
+                >
+                  Proceed button
+                </a>{" "}
+                below.
+              </li>
+              <li className="mt-1 text-md">
+                This would take you to the ODLC PORTAL to Buy ODLC Form, you
+                will use this form to purchase your ODLC Form PIN.
+              </li>
+              <li className="mt-1 text-md">
+                Input your First Name, Surname, Email, Phone Number and then
+                Click on the Proceed Button, and then the Buy Now Button.
+              </li>
+              <li className="mt-1 text-md">
+                Pay the form fee either using your ATM Card or Transfer or Bank
+                or USSD or Visa QR option.
+              </li>
+              <li className="mt-1 text-md">
+                On payment success, an Admission PIN will be sent to your email
+                address.
+              </li>
+              <li className="mt-1 text-md">
+                Go back to{" "}
+                <a
+                  className="text-red-600 font-semibold"
+                  href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
+                >
+                  ODLC PORTAL
+                </a>{" "}
+                and login using your email from the registration and the PIN as
+                your password.
+              </li>
+              <li className="mt-1 text-md">
+                Follow the instructions on the screen on login to upload your
+                credentials.
+              </li>
+            </div>
           </div>
         </div>
       </div>
