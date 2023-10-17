@@ -35,22 +35,14 @@ function Odlcform() {
   return (
     <div className="isolate bg-white px-6  sm:py-3 lg:px-8">
       <div
-        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+        className="absolute inset-x-0 top-[-5rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
-      >
-        <div
-          className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
-          style={{
-            clipPath:
-              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-          }}
-        />
-      </div>
+      ></div>
       <h2 className="mx-auto text-3xl text-center font-bold tracking-tight mb-10 pb-2 text-red-600 sm:text-4xl">
         Admission Requirements
       </h2>
       <div className="bg-gray-50 ">
-        <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
+        <div className="mx-auto max-w-7xl py-20 sm:px-2 lg:px-4">
           <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
             <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
               <div>
@@ -99,16 +91,28 @@ function Odlcform() {
               </div> */}
             </div>
             <p className="mt-10 text-lg font-semibold">
-              If you meet the requirements above, click on the Proceed button
-              below to acquire the admission form for N20, 000.
+              Instructions to purchase the Admission Form
             </p>
+
+            <li className="mt-1 text-md">
+              If you meet the requirements above, click on the Proceed button
+              below.
+            </li>
+            <li className="mt-1 text-md">
+              This would take you to the ODLC PORTAL to Buy ODLC Form, you will
+              use this form to purchase your ODLC Form PIN.
+            </li>
+            <li className="mt-1 text-md">
+              Input your First Name, Surname, Email, Phone Number and then Click
+              on the Proceed Button.
+            </li>
           </div>
         </div>
       </div>
 
       <div className="mt-10 mx-auto max-w-xl sm:mt-12 pb-10">
         <Link
-          href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
+          href="https://odlcportal.unical.edu.ng/Identity/Payment/BuyAdmissionCheckerPin"
           className="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-red-400 md:py-4 md:px-10 md:text-md"
         >
           Proceed
