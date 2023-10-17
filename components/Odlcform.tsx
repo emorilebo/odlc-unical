@@ -114,11 +114,22 @@ function Odlcform() {
             </li>
             <li className="mt-1 text-md">
               Pay the form fee either using your ATM Card or Transfer or Bank or
-              USSD or Visa QR option
+              USSD or Visa QR option.
             </li>
             <li className="mt-1 text-md">
               On payment success, an Admission PIN will be sent to your email
-              address
+              address.
+            </li>
+            <li className="mt-1 text-md">
+              Go back to{" "}
+              <a
+                className="text-red-600 font-semibold"
+                href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
+              >
+                ODLC PORTAL
+              </a>{" "}
+              and login using your email from the registration and the PIN as
+              your password.
             </li>
           </div>
         </div>
