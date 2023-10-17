@@ -60,7 +60,7 @@ export default function Banner() {
               <div className="mt-5 sm:mt-8 sm:justify-center lg:inline-flex lg:justify-start">
                 <div className=" rounded-md shadow">
                   <Link
-                    href="https://odlcportal.unical.edu.ng"
+                    href="https://odlcportal.unical.edu.ng/Identity/Payment/BuyAdmissionCheckerPin"
                     className=" flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-md font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-md"
                   >
                     Visit Portal for Application
