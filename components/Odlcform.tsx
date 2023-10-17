@@ -131,6 +131,10 @@ function Odlcform() {
               and login using your email from the registration and the PIN as
               your password.
             </li>
+            <li className="mt-1 text-md">
+              Follow the instructions on the screen on login to upload your
+              credentials.
+            </li>
           </div>
         </div>
       </div>
