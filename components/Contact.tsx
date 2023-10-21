@@ -8,21 +8,22 @@ function Contact() {
     subject: "",
     email: "",
     phoneNumber: "",
-    massage: "",
+    message: "",
   });
 
-  const handleSubmit = (e: { preventDefault: () => void }) => {
+  const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     console.log(formData);
-    fetch("mailto:emorylebo@gmail.com", {
+    const response = await fetch("mailto:", {
       method: "POST",
       body: JSON.stringify(formData),
     });
   };
 
   const handleSubmitt = async (event: { preventDefault: () => void }) => {
+    console.log("handleSubmitt clicked");
     event.preventDefault();
-    const res = await fetch("/api/send_email", {
+    const res = await fetch("../api/send_email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,6 +33,7 @@ function Contact() {
     const data = await res.json();
     console.log(data);
   };
+
   return (
     <div className="bg-white">
       <main>
@@ -84,7 +86,7 @@ function Contact() {
                 <form
                   // action="#"
                   onSubmit={handleSubmitt}
-                  // method="POST"
+                  method="POST"
                   className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                 >
                   <div>
@@ -149,6 +151,13 @@ function Contact() {
                         type="email"
                         autoComplete="email"
                         className="focus:ring-grape-500 focus:border-grape-500 block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"
+                        value={formData.email}
+                        onChange={(e) =>
+                          setFormData({
+                            ...formData,
+                            email: e.target.value,
+                          })
+                        }
                       />
                     </div>
                   </div>
@@ -170,6 +179,13 @@ function Contact() {
                         autoComplete="tel"
                         aria-describedby="phone-description"
                         className="focus:ring-grape-500 focus:border-grape-500 block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"
+                        value={formData.phoneNumber}
+                        onChange={(e) =>
+                          setFormData({
+                            ...formData,
+                            phoneNumber: e.target.value,
+                          })
+                        }
                       />
                     </div>
                   </div>
@@ -195,6 +211,13 @@ function Contact() {
                         aria-describedby="how-can-we-help-description"
                         rows={4}
                         className="focus:ring-grape-500 focus:border-grape-500 block w-full rounded-md border border-gray-300 shadow-sm sm:text-sm"
+                        value={formData.message}
+                        onChange={(e) =>
+                          setFormData({
+                            ...formData,
+                            message: e.target.value,
+                          })
+                        }
                         defaultValue={""}
                       />
                     </div>
