@@ -83,7 +83,7 @@ function Contact() {
                   please contact our friendly support staff. We are here to
                   provide you with the assistance you need.
                 </p>
-                <form
+                {/* <form
                   // action="#"
                   onSubmit={handleSubmitt}
                   method="POST"
@@ -195,7 +195,7 @@ function Contact() {
                         htmlFor="how-can-we-help"
                         className="block text-sm font-medium text-gray-700"
                       >
-                        Inquery
+                        Inquiry
                       </label>
                       <span
                         id="how-can-we-help-description"
@@ -231,7 +231,7 @@ function Contact() {
                       Submit
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>

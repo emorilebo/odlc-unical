@@ -9,7 +9,7 @@ export default async function handler(
     const { formData } = req.body;
     console.log(req.body)
     const transporter = nodemailer.createTransport({
-      host: "smtp.fzxmedia.com.ng",
+      host: "smtp.gmail.com",
       // port: 587,
       // port: 993,
       port: 465,
