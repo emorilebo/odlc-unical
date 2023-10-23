@@ -91,7 +91,12 @@ function Odlcform() {
               </div> */}
             </div>
             <div className="text-sm">
-              <p className="mt-10 text-lg font-semibold">
+              <p className="my-5  text-lg font-semibold">
+                If you meet the requirements above, click on the Proceed button
+                below to acquire the admission form for N22,300. (Including
+                Charge).
+              </p>
+              <p className="my-3 text-lg font-semibold">
                 Instructions to purchase the Admission Form
               </p>
 
