@@ -56,21 +56,20 @@ function Contact() {
             </h1>
             <p className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-normal text-blue-900 italic">
               {" "}
-              dirodlc@unical.edu.ng; 07069099650
+              dirodlc@unical.edu.ng; +2347069099650
             </p>
             <p className="mx-auto mt-6 max-w-3xl text-center text-xl leading-normal text-gray-500">
               We appreciate your interest in the University of Calabar Open and
               Distance Learning Centre. If you have any questions, inquiries, or
-              feedback, please feel free to reach out to us using the contact
-              information provided below. Our dedicated team is here to assist
-              you.
+              feedback, please feel free to reach out to us using the contacts
+              above. Our dedicated team is here to assist you.
             </p>
           </div>
         </div>
 
         {/* Contact Section */}
         <div className="relative bg-white">
-          <div className="lg:absolute lg:inset-0">
+          {/* <div className="lg:absolute lg:inset-0">
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <Image
                 width={1000}
@@ -80,20 +79,20 @@ function Contact() {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
           <div className="relative py-16 px-4 sm:py-24 sm:px-6 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 lg:py-32">
             <div className="lg:pr-8">
               <div className="mx-auto max-w-md sm:max-w-lg lg:mx-0">
-                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+                {/* <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                   Inquiries:
-                </h2>
+                </h2> */}
 
-                <p className="mt-4 text-lg text-gray-500 sm:mt-3">
+                {/* <p className="mt-4 text-lg text-gray-500 sm:mt-3">
                   For inquiries about our Open and Distance Learning Centre, our
                   programmes, admission process, or any other information,
                   please contact our friendly support staff. We are here to
                   provide you with the assistance you need.
-                </p>
+                </p> */}
                 {/* <form
                   // action="#"
                   onSubmit={handleSubmitt}
