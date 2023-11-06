@@ -127,16 +127,17 @@ function Odlcform() {
                 address.
               </li>
               <li className="mt-1 text-md">
-                Go back to{" "}
+                Go back to the portal screening section on{" "}
                 <a
                   className="text-red-600 font-semibold"
-                  href="https://odlcportal.unical.edu.ng/Identity/Account/Login?returnUrl=%2F"
+                  href="https://odlcportal.unical.edu.ng/Identity/Screening/StartScreening"
                 >
                   ODLC PORTAL
                 </a>{" "}
                 and login using your email from the registration and the PIN as
                 your password.
               </li>
+              
               <li className="mt-1 text-md">
                 Follow the instructions on the screen on login to upload your
                 credentials.
