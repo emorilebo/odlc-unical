@@ -134,7 +134,7 @@ function Odlcform() {
                 >
                   ODLC PORTAL
                 </a>{" "}
-                and login using your email from the registration and your ODLC form PIN sent to your email.
+                and login using your email and your ODLC form PIN sent to your email.
               </li>
               
               <li className="mt-1 text-md">
