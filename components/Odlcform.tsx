@@ -138,7 +138,10 @@ function Odlcform() {
               </li>
               
               <li className="mt-1 text-md">
-                Read the instructions carefully and Click on the Proceed with your registration button to proceed by uploading the necessary credentials.
+                Click on the Proceed with your registration and fill in your biodata. Submit and upload your documents.
+              </li>
+              <li className="mt-1 text-md">
+                After the upload, preview to view the uploaded documents before your submission and click on finish.
               </li>
             </div>
           </div>
